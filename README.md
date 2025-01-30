@@ -1,3 +1,5 @@
 # jogo-dos-bixos
 
-jogo da memoria [check]
+jogo da memoria [X]
+jogo da velha [X]
+jogo da lógica [ ]
