@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launcher de Jogos</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('./imagemjogo.avif');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .celular {
+        background: rgb(10, 1, 72);
+        color: white;
+        width: 300px;
+        height: 500px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .botao {
+        display: block;
+        width: 80%;
+        padding: 15px;
+        margin: 10px 0;
+        background: #ff9800;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px;
+        transition: 0.3s;
+      }
+      
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="celular">
+      <h2>Escolha um Jogo</h2>
+      <a href="https://jorgejmarttins.github.io/Jogo-da-Velha/" class="botao">Jogo da Velha</a>
+      <a href="https://jorgejmarttins.github.io/GameMemory/" class="botao">Jogo da Memória</a>
+      <a href="./equipe 2/programa/logica.html" class="botao">Jogo de Lógica</a>
+    </div>
+  </div>
+</body>
+</html>
