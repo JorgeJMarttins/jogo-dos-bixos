@@ -42,6 +42,7 @@ function atualizarTurno() {
 
 // Função para marcar X ou O
 function vira(numero) {
+    AtivarTelaCheia();
     if (!jogoIniciado) {
         alert("O jogo ainda não começou! Clique em 'Start'.");
         return;
@@ -110,6 +111,7 @@ function verificarFimDeJogo() {
         let vencedorFinal = pontuacao.jogador1 > pontuacao.jogador2 ? nomeJogador1 : nomeJogador2;
         if (pontuacao.jogador1 === pontuacao.jogador2) {
             alert("O jogo terminou em empate!");
+            reiniciarPagina();
         } else {
             document.querySelector("body").innerHTML = `
             <p>O grande campeão foi:</p>
